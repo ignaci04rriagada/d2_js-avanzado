@@ -1,0 +1,34 @@
+/* Estilo base de los enlaces del menú: blanco */
+.navbar .menu-superior-container a,
+.navbar .d-none.d-md-flex a {
+    color: rgba(255, 255, 255, 0.7) !important;  /* blanco con opacidad */
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+/* Hover: dorado + borde inferior */
+.navbar .menu-superior-container a:hover,
+.navbar .d-none.d-md-flex a:hover {
+    color: var(--oscar-gold) !important;
+    border-bottom: 2px solid var(--oscar-gold);
+    padding-bottom: 4px;
+}
+
+/* Menú de escritorio */
+.navbar .d-none.d-md-flex a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding-bottom: 4px;
+}
+
+.navbar .d-none.d-md-flex a:hover {
+    color: var(--oscar-gold);
+    border-bottom: 2px solid var(--oscar-gold);
+}
+
+/* Ítem activo (página actual) */
+.navbar .d-none.d-md-flex .current-menu-item a {
+    color: var(--oscar-gold);
+    border-bottom: 2px solid var(--oscar-gold);
+}
