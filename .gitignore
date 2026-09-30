@@ -1,0 +1,16 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores y Entornos de Desarrollo
+.vscode/
+.idea/
+
+# Si en el futuro usan Node.js para compilar JS/CSS o Bloques
+node_modules/
+npm-debug.log
+
+# Archivos de respaldo de editores
+*.swp
+*.tmp
+*.bak
